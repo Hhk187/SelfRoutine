@@ -1,13 +1,6 @@
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
-backend:
-  cors:
-    origin: http://*.${DNS}
-    methods: [GET, HEAD, PATCH, POST, PUT, DELETE]
-    credentials: true
-    Access-Control-Allow-Origin: '*'
-
 on:
   # Runs on pushes targeting the default branch
   push:
